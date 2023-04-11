@@ -44,7 +44,7 @@ try:
 #fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
        
 
-except URlError as e:
+except URLError as e:
     streamlite.error()
 
 # totake the json version of  the response and normalize it
